@@ -1,0 +1,9 @@
+10013,Lerato Mokoena,75;bad;80 <- mark is not a number
+10036,,70;65;80 <- missing name
+10059,Neo Mokoena,110;50;60 <- mark above 100
+10001,Duplicate Student,70;70;70 <- duplicate student number
+10099,Wrong Format <- expected 3 fields
+ABC12,Unknown,65;75;80 <- bad student number
+10145,Missing Mark,60;;80 <- mark is not a number
+10168,Negative Mark,-5;50;60 <- mark is not a number
+10224,Extra Comma,Name,50;60;70 <- expected 3 fields
