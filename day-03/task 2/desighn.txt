@@ -1,0 +1,27 @@
+# Design: Learner Register
+
+## Call Tree
+- main()
+  - add_learner(learners, number, name)
+  - add_mark(learners, number, mark)
+  - rename_learner(learners, number, new_name)
+  - delete_learner(learners, number)
+  - find_by_name(learners, search_text)
+  - print_ranking(learners)
+    - ranking(learners)
+      - learner_average(learners, number)
+
+## Pseudocode
+1. START
+2. CREATE an empty dictionary learners
+3. REPEAT
+4. DISPLAY the menu and READ a choice
+5. IF choice = 1 THEN validate, then add the learner
+6. IF choice = 2 THEN validate the mark, then add it
+7. IF choice = 3 THEN rename the learner
+8. IF choice = 4 THEN delete the learner
+9. IF choice = 5 THEN find learners by name
+10. IF choice = 6 THEN show the ranking
+11. UNTIL choice = 7
+12. DISPLAY Goodbye
+13. END

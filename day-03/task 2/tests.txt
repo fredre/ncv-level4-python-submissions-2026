@@ -1,0 +1,10 @@
+# Test Results for Learner Register
+
+| No. | Do this | Expected | Why | Result |
+| :--- | :--- | :--- | :--- | :--- |
+| T1 | Add 2024001 twice | Added, then 'already exists' | duplicate key | PASS |
+| T2 | Add learner 12 | Invalid number or name | validation | PASS |
+| T3 | Mark abc, then 101 | Invalid mark both times | validation | PASS |
+| T4 | Mark for unknown 9999999 | No such learner | missing key | PASS |
+| T5 | Ranking with no marks | No marks captured yet | empty data | PASS |
+| T6 | Three learners, different averages | Highest average first | sort order | PASS |
